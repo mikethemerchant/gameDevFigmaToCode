@@ -138,13 +138,27 @@ nav ul li a {
     vertical-align: middle;
 }
 
-
-
 /* achievement cards */
-.achievement-cards {
-    background-color: red;
+.achievement-card {
+    position: absolute;
+    min-width: 200px;
+    color: var(--dark-blue-color);
 }
 
-.achievement-cards .students-enrolled {
-    background-color: blue;
+.content {
+    border-radius: 24px;
+    padding: 8px 32px;
+    background: #FFFFFF;
 }
+
+.students-enrolled {
+    left: 49%;
+    top: 270px;
+}
+
+.achievement-card.overall-rating {
+    left: 47%;
+    top: 470px;
+}
+
+
