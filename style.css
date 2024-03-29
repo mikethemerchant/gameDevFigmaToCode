@@ -108,8 +108,7 @@ nav ul li a {
 }
 
 .hero-section .left {
-    width: 457px;
-    margin-bottom: 30px;
+    flex: 1;
 }
 
 .hero-section .left h1 {
@@ -127,6 +126,8 @@ nav ul li a {
     font-size: 16px;
     line-height: 200%;
     color: #FFFFFF;
+    width: 457px;
+    margin-bottom: 30px;
 }
 
 .hero-section .right {
@@ -143,6 +144,7 @@ nav ul li a {
     position: absolute;
     min-width: 200px;
     color: var(--dark-blue-color);
+    z-index: 5;
 }
 
 .content {
@@ -151,14 +153,49 @@ nav ul li a {
     background: #FFFFFF;
 }
 
+.content div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .students-enrolled {
-    left: 49%;
-    top: 270px;
-}
-
-.achievement-card.overall-rating {
     left: 47%;
-    top: 470px;
+    top: 48%;
 }
 
+.overall-rating {
+    left: 43%;
+    top: 75%;
+}
+
+.achievement-card h3 {
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--dark-blue-color);
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.achievement-card p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--dark-blue-color);
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.achievement-card .bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #6F7DFB 0%, #3B448F 100%);
+    left: 7px;
+    top: 7px;
+    z-index: -1;
+    border-radius: 24px;
+}
 
