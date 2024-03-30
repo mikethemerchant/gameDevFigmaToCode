@@ -199,3 +199,17 @@ nav ul li a {
     border-radius: 24px;
 }
 
+/* Testimonial section */
+
+section {
+    margin-top: 100px;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    margin: 0;
+    color: var(--dark-blue-color)
+}
