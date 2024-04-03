@@ -245,6 +245,17 @@ section p {
     position: relative;
 }
 
+.testimonials-section .testimonial-card::before {
+    content: "";
+    width: 28px;
+    position: absolute;
+    height: 40px;
+    top: -40px;
+    left: 60px;
+    background: var(--dark-blue-color);
+    border-radius: 24px 24px 0 0;
+}
+
 .testimonials-section .testimonial-card .content {
     font-family: "Raleway",sans-serif;
     font-weight: 900;
@@ -291,5 +302,9 @@ section p {
 
 .testimonials-section .testimonial-card:last-child {
     transform: translateX(20px);
+}
+
+.feature {
+    margin-bottom: 35px;
 }
 
