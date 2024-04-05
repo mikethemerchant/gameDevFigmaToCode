@@ -403,3 +403,31 @@ section p {
     left: -6px;
 }
 
+/* apps section */
+.app {
+    text-align: center;
+}
+
+.app .app-buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.app .app-btn {
+    padding: 16px 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #070917;
+    min-width: 310px;
+}
+
+.app .app-btn span {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
