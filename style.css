@@ -519,3 +519,19 @@ footer .copyright {
     margin-top: 36px;
 }
 
+@media (max-width: 1110px) {
+    .btn {
+        padding: 12px 32px;
+    }
+
+    .wrapper {
+        padding: 0 100px;
+    }
+
+    nav {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}
+
