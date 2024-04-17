@@ -522,16 +522,78 @@ footer .copyright {
 @media (max-width: 1110px) {
     .btn {
         padding: 12px 32px;
-    }
-
-    .wrapper {
-        padding: 0 100px;
-    }
-
-    nav {
+      }
+    
+      .wrapper {
+        padding: 0px 100px;
+      }
+    
+      nav {
         width: 100%;
         left: 0;
         right: 0;
-    }
-}
+        padding: 16px 100px;
+      }
+    
+      nav.scrolled {
+        padding: 16px 100px;
+      }
+    
+      header,
+      .hero-section,
+      header .wrapper {
+        max-height: 1100px;
+      }
+    
+      .hero-section {
+        flex-direction: column;
+      }
+    
+      .hero-section .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
 
+      .hero-section .left .btn {
+        align-self: flex-start;
+      }
+
+      .hero-section  .left h1 {
+        font-size: 50px;
+        line-height: 125%;
+      }
+    
+      .hero-section .left h1 {
+        font-size: 50px;
+        line-height: 125%;
+      }
+    
+      .hero-section .achievement-card {
+        position: relative;
+        margin-bottom: 80px;
+      }
+
+      .hero-section .right {
+        position: absolute;
+        margin-bottom: 266px;
+        bottom: 0;
+      }
+    
+      .hero-section .right img {
+        height: 620px;
+      }
+
+      .achievement-card.students-enrolled,
+      .achievement-card.overall-rating {
+        left: unset;
+        top: unset;
+      }
+
+      .hero-section .achievement-cards {
+        align-self: flex-start;
+        margin: 40px;
+      }
+
+}
