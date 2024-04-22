@@ -522,79 +522,130 @@ footer .copyright {
 @media (max-width: 1110px) {
     .btn {
         padding: 12px 32px;
-      }
-    
-      .wrapper {
+    }
+
+    .wrapper {
         padding: 0px 100px;
-      }
-    
-      nav {
+    }
+
+    nav {
         width: 100%;
         left: 0;
         right: 0;
         padding: 16px 100px;
-      }
-    
-      nav.scrolled {
+    }
+
+    nav.scrolled {
         padding: 16px 100px;
-      }
-    
-      header,
-      .hero-section,
-      header .wrapper {
+    }
+
+    header,
+    .hero-section,
+    header .wrapper {
         max-height: 1100px;
-      }
-    
-      .hero-section {
+    }
+
+    .hero-section {
         flex-direction: column;
-      }
-    
-      .hero-section .left {
+    }
+
+    .hero-section .left {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-      }
+    }
 
-      .hero-section .left .btn {
+    .hero-section .left .btn {
         align-self: flex-start;
-      }
+    }
 
-      .hero-section  .left h1 {
+    .hero-section  .left h1 {
         font-size: 50px;
         line-height: 125%;
-      }
-    
-      .hero-section .left h1 {
+    }
+
+    .hero-section .left h1 {
         font-size: 50px;
         line-height: 125%;
-      }
-    
-      .hero-section .achievement-card {
+    }
+
+    .hero-section .achievement-card {
         position: relative;
         margin-bottom: 80px;
-      }
+    }
 
-      .hero-section .right {
+    .hero-section .right {
         position: absolute;
         bottom: 0;
         right: 50px;
-      }
-    
-      .hero-section .right img {
-        height: 520px;
-        
-      }
+    }
 
-      .achievement-card.students-enrolled,
-      .achievement-card.overall-rating {
+    .hero-section .right img {
+        height: 520px;
+    }
+
+    .achievement-card.students-enrolled,
+    .achievement-card.overall-rating {
         left: unset;
         top: unset;
-      }
+    }
 
-      .hero-section .achievement-cards {
+    .hero-section .achievement-cards {
         align-self: flex-start;
         margin: 40px;
-      }
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .testimonials-section {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 50px;
+    }
+
+    .testimonials-section .testimonial-card {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .testimonials-section .testimonial-card:last-child::before {
+        top: -40px;
+        left: 60px;
+        height: calc(100% + 80px);
+    }
+
+    .testimonials-section .testimonial-card:last-child {
+        transform: translateX(0px);
+        margin-bottom: 0;
+    }
+
+    .testimonials-section .desktop-btn {
+        display: none;
+    }
+
+    .testimonials-section .mobile-btn {
+        display: block;
+        align-self: flex-end;
+        order: 3;
+    }   
+
+    .testimonials-section .right {
+        order: 1;
+    }
+
+    .testimonials-section .left {
+        order: 2;
+    }
+
+    .testimonials-section .right p {
+        display: inline;
+    }
+
+    .testimonials-section h2 {
+        margin-bottom: 20px;
+    }
 
 }
