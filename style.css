@@ -577,12 +577,13 @@ footer .copyright {
 
       .hero-section .right {
         position: absolute;
-        margin-bottom: 266px;
         bottom: 0;
+        right: 50px;
       }
     
       .hero-section .right img {
-        height: 620px;
+        height: 520px;
+        
       }
 
       .achievement-card.students-enrolled,
