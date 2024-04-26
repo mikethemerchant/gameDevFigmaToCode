@@ -648,4 +648,34 @@ footer .copyright {
         margin-bottom: 20px;
     }
 
+    .courses-section .course-cards {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .courses-section .course-card {
+        margin: 0;
+    }
+
+    .courses-section h2 {
+        margin-bottom: 40px;
+    }
+
+    .courses-section .course-card img {
+        height: 260px;
+        object-fit: cover;
+    }
+
+    .courses-section .course-card h3 {
+        font-size: 24px;
+    }
+
+    .courses-section .wrapper .btn {
+        right: 100px;
+    }
+
+    .courses-section .course-card:last-child {
+        margin-bottom: 50px;
+    }
+
 }
